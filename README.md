@@ -1,6 +1,6 @@
 # mruby-murmurhash2
 
-murmurhash1 digest.
+murmurhash2 digest.
 
 ```ruby
 puts Murmurhash2::digest('mruby') #=> "\xda\x2a\x7f\xca"
