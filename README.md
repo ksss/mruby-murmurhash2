@@ -3,7 +3,7 @@
 murmurhash2 digest.
 
 ```ruby
-puts Murmurhash2::digest('mruby') #=> "\xda\x2a\x7f\xca"
+puts MurmurHash2::digest('mruby') #=> "\xda\x2a\x7f\xca"
 ```
 
 ## Installation
@@ -32,7 +32,7 @@ and exec.
 rake clean
 rake test
 rake
-mruby -e 'puts Murmurhash2::digest("mruby")'
+mruby -e 'puts MurmurHash2::digest("mruby")'
 ```
 
 ## See also
