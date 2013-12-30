@@ -69,7 +69,7 @@ mrb_murmurhash2_digest(mrb_state *mrb, mrb_value self)
 void
 mrb_mruby_murmurhash2_gem_init(mrb_state *mrb)
 {
-  struct RClass *mMurmurhash1 = mrb_define_module(mrb, "Murmurhash2");
+  struct RClass *mMurmurhash1 = mrb_define_module(mrb, "MurmurHash2");
   mrb_define_class_method(mrb, mMurmurhash1, "digest", mrb_murmurhash2_digest, ARGS_REQ(1));
 }
 
